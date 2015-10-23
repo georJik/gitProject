@@ -18,7 +18,7 @@ showPlayerDialog(playerid, dialogid, style, caption[], info[], button1[], button
 #else
 	#define	_ALS_ShowPlayerDialog
 #endif
-#define	ShowPlayerDialog	showPlayerDialog  // Хук
+#define	ShowPlayerDialog	showPlayerDialog // Хук анти-вывода фейк диалогов
 
 #define	DIALOG_LOGIN	1
 #define	DIALOG_REGISTER	2
